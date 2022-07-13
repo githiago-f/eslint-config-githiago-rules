@@ -31,8 +31,6 @@ module.exports = {
     "eol-last": ["error", "always"],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
     "no-mixed-spaces-and-tabs": "error",
-    "object-curly-newline": ["error", { "multiline": true }],
-    "jsx-quotes": ["error", "prefer-double"],
-    "quotes-props": ["error", "consistent-as-needed"]
+    "object-curly-newline": ["error", { "multiline": true }]
   }
 }
