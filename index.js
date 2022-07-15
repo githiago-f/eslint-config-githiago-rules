@@ -31,7 +31,6 @@ module.exports = {
     "eol-last": ["error", "always"],
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
     "no-mixed-spaces-and-tabs": "error",
-    "object-curly-newline": ["error", { "multiline": true }],
-    "import/no-default-export": "error"
+    "object-curly-newline": ["error", { "multiline": true }]
   }
 }
