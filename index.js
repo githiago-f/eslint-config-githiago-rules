@@ -13,7 +13,8 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "jest"
   ],
   "ignorePatterns": ["dist", "*.js"],
   "rules": {
@@ -43,5 +44,15 @@ module.exports = {
         "caughtErrorsIgnorePattern": "^_"
       }
     ],
+    "jest/expect-expect": [
+      "error",
+      {
+        "assertFunctionNames": [
+          "expect",
+          "request.**.expect",
+          "sut.**.expect"
+        ]
+      }
+    ]
   }
 }
